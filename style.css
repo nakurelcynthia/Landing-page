@@ -1,26 +1,29 @@
 .container{
     width: 1500px;
-    height: 7000px;
+    height: 3500px;
     border: 1px solid black;
     margin: auto;
     padding: 5%;
 }
 .font{
     display: inline-block;
-    font-style: italic;
+}
+.header{
+    display: inline-flex;
+    gap: 300px;
 }
 .navBar{
-    display: inline-flex;
+    display: flex;
     gap: 40px;
-    padding: auto;
-    margin: center;
 }
 .img{
-    width: 650px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
+    display: flex;
 }
 .brevity{
     font-size: xx-large;
+    display: inline-flex;
 }
 .catchphrase{
     width: 30%;
