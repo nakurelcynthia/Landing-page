@@ -1,5 +1,5 @@
 .container{
-    width: 1500px;
+    width: 1300px;
     height: 3500px;
     border: 1px solid black;
     margin: auto;
@@ -11,53 +11,93 @@
 .header{
     display: inline-flex;
     gap: 300px;
+    margin-bottom: 20px;
+    padding: 2%;
 }
 .navBar{
     display: flex;
     gap: 40px;
 }
 .img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     display: flex;
 }
 .brevity{
     font-size: xx-large;
     display: inline-flex;
 }
+.land{
+    font-size: large;
+    padding: 0px 200px 200px 0px;
+}
 .catchphrase{
-    width: 30%;
+    width: 50%;
     font-family: 'Times New Roman', Times, serif;
+}
+.stats{
+    display: flex;
+    gap: 50px;
 }
 #submit{
     border: none;
     border-radius: circle;
     background-color: rgb(65, 54, 54);
     font-size: x-large;
+    margin-bottom: 50px;
 }
 #button{
     border: none;
     display: inline-flex;
-    font-size: xx-large;
+    font-size: large;
     gap: 70px;
+    padding: 2%;
+    margin-top: 50px;
 
 }
 .icons{
-    display: inline-flex;
+    display: flex;
     height: 150px;
     width: 150px;
+    padding-bottom: 150px;
 }
 .samples{
     height: 150px;
     width: 150px;
     display: inline-flex;
+    gap: 80px;
+}
+.vase{
+    display: flex;
     gap: 40px;
+    padding-left: 50px;
+}
+.small{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 h4{
-    padding: 2%;
-    margin: 15% 0% 0% 0%;
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+h6{
+    font-weight: lighter;
+    display: flex;
+    font-size: large;
+    margin: 0% 0% 0% 38%;
 }
 .homed{
     width: 900px;
     height: 450px;
+    display: flex;
+}
+.info{
+    display: inline-flex;
+    padding: 15px opx 0px 0px;
+}
+.offers{
+    padding: 40px 200px 200px 150px;
+
 }
