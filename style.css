@@ -121,3 +121,25 @@ h6{
     display: flex;
     gap: 150px;
 }
+.copyright{
+    display: flex;
+    gap: 600px;
+}
+.nun{
+    display: flex;
+    gap: 600px;
+}
+h5{
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+.testimonials{
+    display: inline-flex;
+    padding: 15px opx 0px 0px;
+    gap: 200px;
+}
+.review{
+    
+}
