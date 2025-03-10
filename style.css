@@ -1,6 +1,6 @@
 .container{
-    width: 1300px;
-    height: 3500px;
+    width: 1200px;
+    height: 4500px;
     border: 1px solid black;
     margin: auto;
     padding: 5%;
@@ -62,15 +62,10 @@
     padding-bottom: 150px;
 }
 .samples{
-    height: 150px;
-    width: 150px;
+    height: 350px;
+    width: 350px;
     display: inline-flex;
     gap: 80px;
-}
-.vase{
-    display: flex;
-    gap: 40px;
-    padding-left: 50px;
 }
 .small{
     padding-bottom: 20px;
@@ -96,8 +91,33 @@ h6{
 .info{
     display: inline-flex;
     padding: 15px opx 0px 0px;
+    gap: 200px;
 }
 .offers{
-    padding: 40px 200px 200px 150px;
+    padding: 40px 200px 200px 0px;
+    gap: 180px;
+}
+.decorid{
+    padding: 40px 80px 200px 15px;
+    width: 350px;
+}
+.dc{
+    width: 800px;
+    height: 500px;
+    display: flex;
+}
+.pic{
+    display: flex;
 
+}
+.testimonials{
+    display: flex;
+}
+.comment{
+    padding-top: 150px;
+    width: 350px;
+}
+.contact{
+    display: flex;
+    gap: 150px;
 }
