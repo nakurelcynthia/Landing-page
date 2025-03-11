@@ -1,0 +1,203 @@
+.container{
+    width: 1000px;
+    height: 4200px;
+    border: 1px solid black;
+    margin: auto;
+    padding: 5%;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
+.stiles{
+    border: 1px solid black;
+    width: 350px;
+    height: 380px;
+    background-color: rgb(80, 76, 76);
+    margin-left: 800px;
+    margin-top: -90px;
+    rotate: 62deg;
+    border-radius: 70px;
+    z-index: -1;
+    position: absolute;
+    overflow-inline: hidden;
+    max-width: 100%;
+    max-height: 100%;
+}
+body{
+    font-family: 'Roboto';
+}
+.font{
+    display: inline-flex;
+}
+.header{
+    display: inline-flex;
+    gap: 250px;
+    margin-bottom: 20px;
+    padding: 2%;
+}
+.navBar{
+    display: flex;
+    gap: 30px;
+}
+.users{
+    display: flex;
+    gap: 25px;
+    color: white;
+    font-weight: lighter;
+}
+.img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.brevity{
+    font-size: xx-large;
+    display: inline-flex;
+}
+.land{
+    font-size: large;
+
+}
+.catchphrase{
+    width: 50%;
+}
+.stats{
+    display: flex;
+    gap: 50px;
+}
+#submit{
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: rgb(65, 54, 54);
+    font-size: large;
+    margin-bottom: 50px;
+    color: white;
+    padding: 28px 50px 28px 50px;
+}
+#button{
+    border: 1px solid black;
+    display: inline-flex;
+    font-size: large;
+    gap: 70px;
+    padding: 8%;
+    border-radius: 40px;
+}
+#sbutton{
+    font-size: xx-large;
+    border: none;
+}
+.icons{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    padding-bottom: 150px;
+}
+.samples{
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    gap: 80px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.small{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+h4{
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+h6{
+    font-weight: lighter;
+    display: flex;
+    font-size: large;
+    margin: 0% 0% 0% 38%;
+}
+.info{
+    display: inline-flex;
+    padding: 15px opx 0px 0px;
+    gap: 200px;
+}
+.decorid{
+    padding: 40px 80px 200px 15px;
+    width: 350px;
+}
+.dc{
+    width: 800px;
+    height: 500px;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.pic{
+    display: flex;
+
+}
+.testimonials{
+    display: flex;
+}
+.comment{
+    padding-top: 150px;
+    width: 350px;
+}
+.contact{
+    display: flex;
+    gap: 150px;
+    padding: 100px 0px 100px 80px;
+}
+.copyright{
+    display: inline-flex;
+    gap: 550px;
+    padding-left: 80px;
+}
+.nun{
+    display: flex;
+    gap: 300px;
+}
+h5{
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+.testimonials{
+    display: inline-flex;
+    padding: 15px opx 0px 0px;
+    gap: 200px;
+}
+.promo{
+    width: 400px;
+}
+h2{
+    width: 280px;
+    font-size: xx-large;
+}
+h1{
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+.offers{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    gap: 90px;
+    max-width: 100%;
+    max-width: 100%;
+}
+.web{
+    height: 60px;
+    width: 1900px;
+    background-color: white;
+    display: flex;
+    z-index: -1;
+    margin-top: -2800px;
+    margin: auto;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
