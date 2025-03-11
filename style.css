@@ -1,22 +1,43 @@
 .container{
-    width: 1200px;
-    height: 4500px;
+    width: 1000px;
+    height: 4200px;
     border: 1px solid black;
     margin: auto;
     padding: 5%;
 }
+.stiles{
+    border: 1px solid black;
+    width: 350px;
+    height: 380px;
+    background-color: rgb(80, 76, 76);
+    margin-left: 800px;
+    margin-top: -90px;
+    rotate: 62deg;
+    border-radius: 70px;
+    z-index: -1;
+    position: absolute;
+}
+body{
+    font-family: 'Roboto';
+}
 .font{
-    display: inline-block;
+    display: inline-flex;
 }
 .header{
     display: inline-flex;
-    gap: 300px;
+    gap: 250px;
     margin-bottom: 20px;
     padding: 2%;
 }
 .navBar{
     display: flex;
-    gap: 40px;
+    gap: 30px;
+}
+.users{
+    display: flex;
+    gap: 25px;
+    color: white;
+    font-weight: lighter;
 }
 .img{
     width: 400px;
@@ -29,41 +50,45 @@
 }
 .land{
     font-size: large;
-    padding: 0px 200px 200px 0px;
+
 }
 .catchphrase{
     width: 50%;
-    font-family: 'Times New Roman', Times, serif;
 }
 .stats{
     display: flex;
     gap: 50px;
 }
 #submit{
-    border: none;
-    border-radius: circle;
+    border: 1px solid black;
+    border-radius: 40px;
     background-color: rgb(65, 54, 54);
-    font-size: x-large;
+    font-size: large;
     margin-bottom: 50px;
+    color: white;
+    padding: 28px 50px 28px 50px;
 }
 #button{
-    border: none;
+    border: 1px solid black;
     display: inline-flex;
     font-size: large;
     gap: 70px;
-    padding: 2%;
-    margin-top: 50px;
-
+    padding: 8%;
+    border-radius: 40px;
+}
+#sbutton{
+    font-size: xx-large;
+    border: none;
 }
 .icons{
     display: flex;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     padding-bottom: 150px;
 }
 .samples{
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     display: inline-flex;
     gap: 80px;
 }
@@ -83,19 +108,10 @@ h6{
     font-size: large;
     margin: 0% 0% 0% 38%;
 }
-.homed{
-    width: 900px;
-    height: 450px;
-    display: flex;
-}
 .info{
     display: inline-flex;
     padding: 15px opx 0px 0px;
     gap: 200px;
-}
-.offers{
-    padding: 40px 200px 200px 0px;
-    gap: 180px;
 }
 .decorid{
     padding: 40px 80px 200px 15px;
@@ -120,14 +136,16 @@ h6{
 .contact{
     display: flex;
     gap: 150px;
+    padding: 100px 0px 100px 80px;
 }
 .copyright{
     display: flex;
     gap: 600px;
+    padding-left: 80px;
 }
 .nun{
     display: flex;
-    gap: 600px;
+    gap: 400px;
 }
 h5{
     margin: 15% 0% 0% 28%;
@@ -140,6 +158,23 @@ h5{
     padding: 15px opx 0px 0px;
     gap: 200px;
 }
-.review{
-    
+.promo{
+    width: 400px;
+}
+h2{
+    width: 280px;
+    font-size: xx-large;
+}
+h1{
+    margin: 15% 0% 0% 28%;
+    font-weight: bold;
+    font-size: 45px;
+    display: flex;
+}
+.offers{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    padding: 150px 0px 0px 0px;
+    gap: 90px;
 }
