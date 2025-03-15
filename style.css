@@ -114,7 +114,7 @@ h6{
     font-weight: lighter;
     display: flex;
     font-size: large;
-    margin: 0% 0% 0% 38%;
+    margin: 0% 0% 10% 38%;
 }
 .info{
     display: inline-flex;
@@ -183,11 +183,12 @@ h1{
 }
 .offers{
     display: flex;
-    height: 300px;
-    width: 300px;
-    gap: 90px;
+    height: 120px;
+    width: 120px;
+    gap: 170px;
     max-width: 100%;
     max-width: 100%;
+    color: white;
 }
 .web{
     height: 60px;
@@ -200,4 +201,14 @@ h1{
     background-size: cover;
     max-width: 100%;
     max-height: 100%;
+}
+.subs{
+    display: flex;
+    gap: 100px;
+    font-weight: lighter;
+    width: 100%;
+    padding-left: 20px;
+}
+h3{
+    width: 150%;
 }
