@@ -1,7 +1,6 @@
 .container{
     width: 1000px;
     height: 4200px;
-    border: 1px solid black;
     margin: auto;
     padding: 5%;
     max-width: fit-content;
@@ -93,8 +92,8 @@ body{
     padding-bottom: 150px;
 }
 .samples{
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     display: inline-flex;
     gap: 80px;
     max-width: 100%;
@@ -211,4 +210,12 @@ h1{
 }
 h3{
     width: 150%;
+}
+.pricing{
+    display: flex;
+    gap: 150px;
+    width: 500%;
+}
+.per{
+    display: flex;
 }
